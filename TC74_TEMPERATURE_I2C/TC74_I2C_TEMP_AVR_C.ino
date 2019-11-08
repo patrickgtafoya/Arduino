@@ -78,4 +78,3 @@ float readTemp(uint8_t address){
   i2c_stop();
   return (temp*(9.0/5.0) +32.0);
 }
-
