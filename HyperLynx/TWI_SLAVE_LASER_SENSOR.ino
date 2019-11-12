@@ -33,4 +33,3 @@ void initializeInterrupt(){
 ISR(INT0_vect){
   stripeCount++;              //Increment stripe count upon signal from Sick Lasers
 }
-
